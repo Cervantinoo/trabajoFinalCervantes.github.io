@@ -1,0 +1,182 @@
+  * {
+      margin: 0;
+      font-family: 'Noto Serif Oriya', serif;
+      font-family: 'Ubuntu', sans-serif;
+      
+  }
+
+
+
+body {
+    background: rgb(69, 170, 242);
+      background: linear-gradient(90deg, rgba(69, 170, 242, 1) 0%, rgba(43, 203, 186, 1) 49%, rgba(69, 170, 242, 1) 100%);
+}
+
+  header {
+      display: flex;
+      justify-content: space-around;
+      background-color: rgba(255, 255, 255, 0.4);
+      
+  }
+
+  h2 {
+    font-weight: bolder;
+    padding-left: 15px;
+  }
+
+  p {
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-left: 15px;
+    
+  }
+  ul {
+      display: flex;
+      list-style: none;
+      padding: 0px;
+      width: 150px;
+      height: 40px;
+      justify-content: space-around;
+  }
+
+  li {
+      margin-top: 10px;
+      font-size: 13px;
+      width: 70px;
+      height: 30px;
+      text-align: center;
+  }
+
+  h3 {
+      padding: 10px;
+  }
+
+  .me {
+      width: 100vw;
+      height: 20vh;
+      display: flex;
+      padding-top: 10px;
+     
+  }
+
+  .skils {
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+
+  img {
+      width: 5em;
+      height: 5em;
+
+  }
+
+  #logos {
+      width: 80px;
+      height: 80px;
+      margin: 10px;
+  }
+.contenedor {
+    text-align: center;
+    padding-bottom: 40px;
+}
+  .softSkils_container {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      
+  }
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.div-imagen {
+    display:inline-block;
+    position:relative;
+  }
+  
+  .div-imagen > div {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+  }
+  
+  
+  .desvanecer:active {
+    opacity: 0.2;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+
+  .desvanecer {
+    padding: 5px;
+  }
+
+  #habilidades {
+    text-align: center;
+    font-size: small;
+    
+  }
+
+  #subtitulos {
+    width: 10em;
+    height: 8em;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  #pie{
+    display: block;
+    padding: 2px;
+    width: 75px;
+  }
+
+  #lista {
+    
+    margin-top: 5px;
+      font-size: 13px;
+      width: 70px;
+      height: 15px;
+      text-align: left;
+  }
+
+  a{
+text-decoration: none;
+  }
+
+  #piePagina{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #pie2 {    
+    display: block;
+    padding: 2px;
+    width: 75px;
+      text-align: right;
+  }
+
+  footer {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 20px;
+  }
+   footer > p{
+    text-align: center;
+  }
+
+  .logofooter {
+    display: flex;
+    align-items: center;
+  }
